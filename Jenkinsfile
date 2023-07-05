@@ -19,8 +19,7 @@ pipeline {
             }
         }
     
-
-    
+   
         stage("Update the Deployment Tags") {
             steps {
                 sh """
